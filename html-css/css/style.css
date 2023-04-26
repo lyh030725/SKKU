@@ -1,0 +1,12 @@
+ul {
+  list-style-type: disc;
+}
+
+/* li별로 지정하는 것도 가능 */
+ul > li:first-child {
+  list-style: "🚩 "
+}
+
+ol {
+  list-style: lower-alpha;
+}
